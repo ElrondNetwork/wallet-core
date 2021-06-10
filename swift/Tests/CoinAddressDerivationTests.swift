@@ -37,6 +37,9 @@ class CoinAddressDerivationTests: XCTestCase {
                 case .bitcoin:
                     let expectedResult = "bc1quvuarfksewfeuevuc6tn0kfyptgjvwsvrprk9d"
                     assertCoinDerivation(coin, expectedResult, derivedAddress, address)
+                case .bitcoinTestnet:
+                    let expectedResult = "tb1qruv83qyq4nke8nr70n0j2zdjw6kwt5sth2v20h"
+                    assertCoinDerivation(coin, expectedResult, derivedAddress, address)
                 case .bitcoinCash:
                     let expectedResult = "bitcoincash:qpzl3jxkzgvfd9flnd26leud5duv795fnv7vuaha70"
                     assertCoinDerivation(coin, expectedResult, derivedAddress, address)

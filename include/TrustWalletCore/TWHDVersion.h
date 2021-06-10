@@ -24,6 +24,8 @@ enum TWHDVersion {
     TWHDVersionYPRV = 0x049d7878,
     TWHDVersionZPUB = 0x04b24746,
     TWHDVersionZPRV = 0x04b2430c,
+    TWHDVersionVPUB = 0x045f1cf6,
+    TWHDVersionVPRV = 0x045f18bc,
 
     // Litecoin
     TWHDVersionLTUB = 0x019da462,

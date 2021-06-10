@@ -11,6 +11,7 @@ class CoinTypeTests: XCTestCase {
 
     func testCoinType() {
         XCTAssertEqual(CoinType.bitcoin.rawValue, 0)
+        XCTAssertEqual(CoinType.bitcoinTestnet.rawValue, 1)
         XCTAssertEqual(CoinType.litecoin.rawValue, 2)
         XCTAssertEqual(CoinType.tron.rawValue, 195)
         XCTAssertEqual(CoinType.ethereum.rawValue, 60)

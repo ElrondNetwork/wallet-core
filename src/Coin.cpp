@@ -164,6 +164,7 @@ CoinEntry* coinDispatcher(TWCoinType coinType) {
         case TWCoinTypeZcash: entry = &zcashDP; break;
         case TWCoinTypeZelcash: entry = &zcashDP; break;
         case TWCoinTypeZilliqa: entry = &zilliqaDP; break;
+        case TWCoinTypeBitcoinTestnet: entry = &bitcoinDP; break;
         // end_of_coin_dipatcher_switch_marker_do_not_modify
 
         default: entry = nullptr; break;
